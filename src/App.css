@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+footer{
+  background-color: #1c222a;
+  margin:0px auto;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.footer-copyright{
+  color: white;
+}
+footer a{
+  color: rgba(161, 148, 209, 0.993);
+}
+.jumbotron {
+  padding:70px 30px 70px 30px;
+  margin:0px auto;
+  background: whitesmoke ;
+  color:dark;
+}
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+.navbar-dark {
+  background-color: #1c222a;
+}
+
+.color-black{
+  background-color: #1c222a;
+}
+.dropdown-menu.show{
+  background-color: #1c222a;
+}
+.dropdown-item{
+  color: white; 
+}
+
+.modal-content{
+  background-color: #1c222a;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.modal-header{
+  color: rgba(161, 148, 209, 0.993);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.btn-1 {
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+kbd {
+  background-color: white;  
+  color: black;                 
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+  .img-trouble{
+    height: 450px;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (min-width: 1200px){
+  .img-trouble{
+    height: 330px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px){
+  .img-trouble{
+    height: 330px;
   }
 }
