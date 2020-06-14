@@ -1,4 +1,13 @@
-import { Card, CardBody, CardImg, CardTitle, CardText , CardLink, ListGroupItem, ListGroup} from "reactstrap";
+import {
+  Card,
+  CardBody,
+  CardImg,
+  CardTitle,
+  CardText,
+  CardLink,
+  ListGroupItem,
+  ListGroup,
+} from "reactstrap";
 import React, { Component } from "react";
 
 class CardService extends Component {

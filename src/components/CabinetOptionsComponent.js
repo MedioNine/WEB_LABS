@@ -242,7 +242,7 @@ class CabinetOptions extends Component {
             </UncontrolledButtonDropdown>
           </Nav>
 
-          <Modal isOpen={this.state.isSetOpen} toggle={this.toggleSet}>
+          <Modal id='Sett' isOpen={this.state.isSetOpen} toggle={this.toggleSet}>
             <ModalHeader toggle={this.toggleSet}>Settings</ModalHeader>
             <ModalBody>
               <div className="text-center clearfix">
@@ -329,7 +329,7 @@ class CabinetOptions extends Component {
             </ModalBody>
           </Modal>
 
-          <Modal isOpen={this.state.isNameOpen} toggle={this.toggleNameChange}>
+          <Modal id='NameM' isOpen={this.state.isNameOpen} toggle={this.toggleNameChange}>
             <ModalHeader toggle={this.toggleNameChange}>
               Change first/last name
             </ModalHeader>
@@ -369,7 +369,7 @@ class CabinetOptions extends Component {
             </ModalBody>
           </Modal>
 
-          <Modal isOpen={this.state.isDelOpen} toggle={this.toggleDelete}>
+          <Modal id='DelM' isOpen={this.state.isDelOpen} toggle={this.toggleDelete}>
             <ModalHeader toggle={this.toggleDelete}>
               Are You sure about this?
             </ModalHeader>
@@ -390,6 +390,7 @@ class CabinetOptions extends Component {
           </Modal>
 
           <Modal
+             id='PasM'
             isOpen={this.state.isPasOpen}
             toggle={this.togglePasswordChange}
           >

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CabinetComponent Options container initial renders properly 1`] = `
+<CabinetOptions
+  Token="50753d1cb8379b45840f36c30a95d8a5ea0a5244"
+  errPas=""
+  fetched={false}
+  id=""
+  image={null}
+  imagenew={null}
+  imgUrl=""
+  isDelOpen={false}
+  isNameOpen={false}
+  isPasOpen={false}
+  isSetOpen={true}
+  upd_first_name=""
+  upd_last_name=""
+  user=""
+/>
+`;
+
+exports[`HeaderComponent Options container initial renders properly 1`] = `
+<CabinetOptions
+  Token="50753d1cb8379b45840f36c30a95d8a5ea0a5244"
+  errPas=""
+  fetched={false}
+  id=""
+  image={null}
+  imagenew={null}
+  imgUrl=""
+  isDelOpen={false}
+  isNameOpen={false}
+  isPasOpen={false}
+  isSetOpen={true}
+  upd_first_name=""
+  upd_last_name=""
+  user=""
+/>
+`;

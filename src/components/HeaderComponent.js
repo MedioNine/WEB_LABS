@@ -214,7 +214,7 @@ class Header extends Component {
                   </NavItem>
                 ) : (
                   <NavItem>
-                    <Button outline onClick={this.toggleLogin}>
+                    <Button   outline onClick={this.toggleLogin}>
                       <span className="fa fa-sign-in fa-lg"></span> Login
                     </Button>
                   </NavItem>
@@ -270,7 +270,7 @@ class Header extends Component {
               <Button outline onClick={this.toggleReg}>
                 <span className="fa fa-sign-up fa-lg"></span> Sign up!
               </Button>
-              <Button type="submit" value="submit" className="float-right">
+              <Button  type="submit" value="submit" className="float-right">
                 Login
               </Button>
             </Form>

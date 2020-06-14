@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderComponent Header container initial renders properly 1`] = `
+<Header
+  Token={null}
+  errLog=""
+  errReg=""
+  isLoginOpen={false}
+  isNavOpen={false}
+  isRegOpen={false}
+  password=""
+  reg={
+    Object {
+      "email": "",
+      "password": "",
+      "password2": "",
+      "username": "",
+    }
+  }
+  username=""
+/>
+`;
