@@ -24,6 +24,7 @@ describe('CabinetComponent', () => {
 
       
 
+      
       describe('Options container initial', () => {
         const OptionsContainer = (<CabinetOptions {...props} />)
 

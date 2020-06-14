@@ -7,6 +7,7 @@ import { shallow } from 'enzyme';
 describe('FooterComponent', () => {
 
     
+  
 
       describe('Header container initial', () => {
         const FooterContainer = (<Footer/>)

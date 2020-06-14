@@ -5,6 +5,7 @@ import { shallow } from 'enzyme';
 
 
 describe('HeaderComponent', () => {
+  
     const props = {
         isNavOpen: false,
         isLoginOpen: false,
